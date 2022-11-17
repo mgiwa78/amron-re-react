@@ -1,4 +1,5 @@
 import React from "react";
+import CopyRights from "../../components/copy-right/copy-right.component";
 import DealItem from "../../components/deal-item/deal-item.component";
 import Footer from "../../components/footer/footer.component";
 import NavBar from "../../components/nav-bar/nav-bar.component";
@@ -43,6 +44,7 @@ const Properties = () => {
         </div>
       </div>
       <Footer />
+      <CopyRights />
     </PropertiesContainer>
   );
 };

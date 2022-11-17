@@ -8,6 +8,7 @@ export const FooterContainer = styled.div`
   justify-content: center;
   align-items: center;
   color: var(--color0);
+  flex-wrap: wrap;
 
   align-items: center;
   .footer-container {

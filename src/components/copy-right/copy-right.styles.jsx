@@ -2,5 +2,15 @@ import styled from "styled-components/macro";
 
 export const CopyRightsContainer = styled.div`
   .body {
+    background-color: var(--color18);
+    color: var(--color0);
+    display: flex;
+    width: 100vw;
+    padding: 10px 0;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size10);
+    font-weight: var(--font-weight3);
   }
 `;

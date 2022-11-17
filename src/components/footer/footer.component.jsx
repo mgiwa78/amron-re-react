@@ -9,6 +9,7 @@ import {
 import logoPath from "../../assets/logo/AMRON Horizontal White2@2x.png";
 import locPath from "../../assets/icons/icons8-place_marker.png";
 import contPath from "../../assets/icons/icons8-shake_phone.png";
+import CopyRights from "../copy-right/copy-right.component";
 const Footer = () => {
   return (
     <FooterContainer>
@@ -47,6 +48,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+      <CopyRights />
     </FooterContainer>
   );
 };

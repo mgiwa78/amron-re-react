@@ -32,9 +32,16 @@ export const NavigationContainer = styled.div`
           ul {
             gap: 30px;
           }
-          background: #ffffff63 20% 0%;
-          -webkit-backdrop-filter: blur(9px);
+          background: rgb(255, 255, 255);
+          background: linear-gradient(
+            165deg,
+            rgba(255, 255, 255, 0.4) 0%,
+            rgba(255, 255, 255, 0.8) 100%
+          );
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
           backdrop-filter: blur(5px);
+          -webkit-backdrop-filter: blur(5px);
           position: absolute;
           top: 30px;
           width: 86vw;
@@ -53,7 +60,19 @@ export const NavigationContainer = styled.div`
     width: 70%;
     justify-content: space-between;
     display: flex;
+    align-items: center;
     max-width: 700px;
+  }
+  .contact-btn {
+    background-color: var(--color6);
+    color: var(--color0);
+    width: max-content;
+    height: max-content;
+    padding: 11px 18px;
+    border-radius: 5px;
+    &:hover {
+      color: var(--color0);
+    }
   }
 `;
 

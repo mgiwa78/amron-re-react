@@ -14,9 +14,11 @@ const NavBar = ({ type }) => {
           <NavLink to="/">home</NavLink>
           <NavLink to="/properties">properties</NavLink>
           <NavLink to="/projects">projects</NavLink>
-          <NavLink>subsidiaries</NavLink>
-          <NavLink>about us</NavLink>
-          <NavLink className="contact-btn">contact</NavLink>
+          <NavLink to="/subsidiaries">subsidiaries</NavLink>
+          <NavLink to="/aboutus">about us</NavLink>
+          <NavLink to="/contact" className="contact-btn">
+            contact
+          </NavLink>
         </ul>
       </div>
     </NavigationContainer>

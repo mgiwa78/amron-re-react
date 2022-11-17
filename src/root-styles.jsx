@@ -45,6 +45,7 @@ export const RootStyles = createGlobalStyle`
 --color25:#151515AC;
 --color26:#707070;
 --color27:#1515155F;
+--color28:#5A5A5A;
 
 --contentwidth:85vw;
 
