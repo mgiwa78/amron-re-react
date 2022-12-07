@@ -51,7 +51,32 @@ export const RootStyles = createGlobalStyle`
 
     
 
-    @media only screen and (min-width: 1200px) {
+      --font-size1:32px;
+        --font-size2:22px;
+        --font-size3:18px;
+        --font-size4:16px;//
+        --font-size5:14px;//
+        --font-size6:14px;
+        --font-size7:17px;//
+        --font-size8:13px;//
+        --font-size9:14px;//
+        --font-size10:12px;
+        --font-size11:9px;
+    @media only screen and (min-width: 600px) {
+        
+      --font-size1:32px;
+        --font-size2:22px;
+        --font-size3:18px;
+        --font-size4:16px;//
+        --font-size5:14px;//
+        --font-size6:14px;
+        --font-size7:17px;//
+        --font-size8:13px;//
+        --font-size9:14px;//
+        --font-size10:12px;
+        --font-size11:9px;
+    }
+    @media only screen and (min-width: 1400px) {
         // font sizes
         --font-size1:64px;
         --font-size2:36px;

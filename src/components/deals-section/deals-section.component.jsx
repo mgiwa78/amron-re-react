@@ -8,6 +8,8 @@ const DealsSection = () => {
       <div className="title">Amazing Deals</div>
       <div className="deals-display">
         <DealItem />
+        <DealItem />
+        <DealItem />
       </div>
       <div className="deals-footer">
         <ul className="deal-trails">

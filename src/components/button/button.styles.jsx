@@ -9,6 +9,23 @@ export const ButtonDefault = styled(BaseBtn)`
   height: max-content;
   padding: 11px 18px;
   border-radius: 5px;
+  font-size: var(--font-size6);
+
+  ////////////////////////////////
+  ////////////////////////////////
+  ////////////////////////////////
+  /////Media quaries//////////////
+  ////////////////////////////////
+  ////////////////////////////////
+  ////////////////////////////////
+  @media only screen and (min-width: 1400px) {
+    background-color: var(--color6);
+    color: var(--color0);
+    width: max-content;
+    height: max-content;
+    padding: 11px 18px;
+    border-radius: 5px;
+  }
 `;
 export const ButtonInverted = styled(BaseBtn)`
   color: var(--color0);
