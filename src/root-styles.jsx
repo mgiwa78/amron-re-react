@@ -49,6 +49,7 @@ export const RootStyles = createGlobalStyle`
 
 --contentwidth:85vw;
 
+        @media only screen and (max-width: 700px) {
     
 
       --font-size1:32px;
@@ -56,12 +57,14 @@ export const RootStyles = createGlobalStyle`
         --font-size3:18px;
         --font-size4:16px;//
         --font-size5:14px;//
-        --font-size6:14px;
-        --font-size7:17px;//
-        --font-size8:13px;//
-        --font-size9:14px;//
-        --font-size10:12px;
-        --font-size11:9px;
+        --font-size6:13px;
+        --font-size7:12px;//
+        --font-size8:12px;//
+        --font-size9:11.8px;//
+        --font-size10:10px;
+        --font-size11:9px;    
+        }
+
     @media only screen and (min-width: 600px) {
         
       --font-size1:32px;
@@ -75,8 +78,8 @@ export const RootStyles = createGlobalStyle`
         --font-size9:14px;//
         --font-size10:12px;
         --font-size11:9px;
-    }
-    @media only screen and (min-width: 1400px) {
+    }        
+    @media only screen and (min-width: 1200px) {
         // font sizes
         --font-size1:64px;
         --font-size2:36px;
@@ -92,4 +95,5 @@ export const RootStyles = createGlobalStyle`
 
 
     }
+
 }`;

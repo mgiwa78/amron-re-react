@@ -28,7 +28,7 @@ export const SpecializtionsContainer = styled.div`
 
       width: 247px;
       height: 227px;
-      gap: 15px;
+      gap: 6px;
       text-align: center;
       div {
         display: flex;
@@ -46,7 +46,7 @@ export const SpecializtionsContainer = styled.div`
         font-weight: var(--font-weight6);
       }
       .item-body {
-        width: 230px;
+        width: 180px;
         line-height: 18px;
         color: var(--color5);
         font-size: var(--font-size9);
@@ -75,7 +75,7 @@ export const SpecializtionsContainer = styled.div`
     }
     .spec-block-body {
       color: var(--color5);
-      font-size: var(--font-size9);
+      font-size: var(--font-size6);
       line-height: 23px;
     }
   }

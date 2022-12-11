@@ -10,21 +10,52 @@ export const SubsidiariesContainer = styled.div`
 export const SubsidiariesList = styled.div`
   height: max-content;
   width: var(--contentwidth);
-
+  flex-direction: column;
   display: flex;
   justify-content: center;
   align-content: center;
   gap: 30px;
   height: max-content;
-  padding: 90px 0;
+  padding: 90px 20px;
+  @media only screen and (min-width: 1000px) {
+    height: max-content;
+    width: var(--contentwidth);
+    flex-direction: row;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    height: max-content;
+    padding: 90px 0;
+  }
 `;
 export const SubsidiaryItem = styled.div`
+  @media only screen and (min-width: 1000px) {
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: no-wrap;
+
+    .sub-item-left {
+      .subsidiary-name {
+        text-align: left;
+      }
+      width: 40% !important;
+    }
+    .sub-item-right {
+      height: 363px !important;
+      width: 50% !important;
+    }
+  }
   display: flex;
+  flex-direction: column;
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 20px;
+
   .sub-item-left {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -91,9 +122,11 @@ export const SubsidiaryItem = styled.div`
           font-weight: var(--font-weight5);
           text-transform: capitalize;
           &.key {
+            text-align: start;
             color: var(--color5);
           }
           &.value {
+            padding-left: 10px;
             color: var(--color4);
           }
         }
@@ -101,8 +134,8 @@ export const SubsidiaryItem = styled.div`
     }
   }
   .sub-item-right {
-    height: 463px;
-    width: 484px;
+    height: 343px;
+    width: 100%;
     ${({ imgName }) =>
       css`
         background: url("/images/${imgName}");

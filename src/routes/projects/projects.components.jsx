@@ -11,7 +11,7 @@ import { ProjectsContainer, ProjectsNav } from "./projects.styles";
 const Projects = () => {
   return (
     <ProjectsContainer>
-      <ViewProject />
+      {/* <ViewProject /> */}
       <DynamicHero imgName="9347@2x (Medium).png" title="Projects" />
       <ProjectsNav>
         <div className="projects-container">

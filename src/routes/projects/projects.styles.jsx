@@ -34,14 +34,13 @@ export const ProjectsNav = styled.div`
 
     background-color: var(--color0);
 
-    height: 103px;
+    height: max-content;
     display: flex;
-    list-style: none;
-
-    justify-content: center;
+    flex-direction: column;
+    justify-items: center;
     align-items: center;
     width: 100%;
-    padding: 0 20px;
+    padding: 10px 20px;
     .projects-nav-item {
       display: flex;
       justify-content: center;
@@ -49,12 +48,12 @@ export const ProjectsNav = styled.div`
       text-transform: uppercase;
       color: var(--color12);
 
-      width: calc(25% - 10px);
-      height: 60px;
+      width: 100%;
+      height: 30px;
       font-weight: var(--font-weight6);
       font-size: var(--font-size7);
 
-      border-right: 1px solid var(--color24);
+      border-right: 0px solid var(--color24);
       &:hover {
         border-radius: 5px;
 
@@ -72,5 +71,73 @@ export const ProjectsNav = styled.div`
     border: 1px solid black;
     height: 200px;
     width: 200px;
+  }
+  @media only screen and (min-width: 1000px) {
+    background-color: var(--color9);
+    height: 197px;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    height: max-content;
+    padding: 60px 0;
+
+    .projects-container {
+      width: var(--contentwidth);
+      display: flex;
+      justify-items: center;
+      gap: 30px;
+      height: max-content;
+      align-items: center;
+    }
+
+    .projects-nav-items {
+      list-style: none;
+      flex-direction: row !important;
+      border-radius: 5px;
+
+      background-color: var(--color0);
+
+      height: 103px;
+      display: flex;
+      list-style: none;
+
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 0 20px;
+      .projects-nav-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        color: var(--color12);
+
+        width: calc(25% - 10px);
+        height: 60px;
+        font-weight: var(--font-weight6);
+        font-size: var(--font-size7);
+
+        border-right: 1px solid var(--color24);
+        &:hover {
+          border-radius: 5px;
+
+          border-right: none;
+          background-color: var(--color6);
+          color: var(--color0);
+        }
+        &:last-child {
+          border-right: none;
+        }
+      }
+    }
+    .pro {
+      background-color: blue;
+      border: 1px solid black;
+      height: 200px;
+      width: 200px;
+    }
   }
 `;

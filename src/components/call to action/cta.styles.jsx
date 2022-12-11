@@ -40,7 +40,7 @@ export const CallToActionContainer = styled.div`
   ////////////////////////////////
   ////////////////////////////////
   ////////////////////////////////
-  @media only screen and (min-width: 1400px) {
+  @media only screen and (min-width: 1000px) {
     width: 100vw;
     display: flex;
     justify-content: center;

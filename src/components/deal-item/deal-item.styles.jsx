@@ -2,7 +2,7 @@ import styled from "styled-components/macro";
 
 export const DealItemContainer = styled.div`
   height: 332px;
-  width: 262px !important;
+  width: 270px;
   padding: 10px;
   gap: 5px;
   display: flex;
@@ -13,7 +13,7 @@ export const DealItemContainer = styled.div`
   .item-top {
     padding: 20px;
     position: relative;
-    width: 228px;
+    width: 100%;
     height: 322px;
     border-radius: 2px;
     background: url("/images/Image 2.png");
@@ -52,7 +52,7 @@ export const DealItemContainer = styled.div`
     text-align: left;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
     .deal-location {
       display: flex;
       align-items: center;
@@ -74,7 +74,7 @@ export const DealItemContainer = styled.div`
     .deal-amenities {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 6px;
       color: var(--color12);
       font-size: var(--font-size10);
 
@@ -104,8 +104,8 @@ export const DealItemContainer = styled.div`
   ////////////////////////////////
   ////////////////////////////////
   @media only screen and (min-width: 1200px) {
-    height: 369px;
-    width: 362px;
+    height: 332px;
+    width: 270px;
     padding: 10px;
     gap: 5px;
     display: flex;

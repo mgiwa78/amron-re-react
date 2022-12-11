@@ -2,11 +2,14 @@ import React from "react";
 import { NavigationContainer, NavLink, NavLogo } from "./nav-bar.styles";
 import LogoPath from "../../assets/logo/logo-desktop.png";
 import { Link } from "react-router-dom";
-
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 const NavBar = ({ type }) => {
   return (
-    <NavigationContainer className="container" type={type}>
-      <div className="nav-container">
+    <NavigationContainer className="nav-container" type={type}>
+      {/* <div className="nav-container">
         <div className="logo-box">
           <NavLogo src={LogoPath} />
         </div>
@@ -20,7 +23,27 @@ const NavBar = ({ type }) => {
             contact
           </NavLink>
         </ul>
-      </div>
+      </div> */}
+      <Navbar className="nav-box" expand="lg">
+        <NavLink to="/">
+          <div className="logo-box">
+            <NavLogo src={LogoPath} />
+          </div>
+        </NavLink>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <NavLink to="/">home</NavLink>
+            <NavLink to="/properties">properties</NavLink>
+            <NavLink to="/projects">projects</NavLink>
+            <NavLink to="/subsidiaries">subsidiaries</NavLink>
+            <NavLink to="/aboutus">about us</NavLink>
+            <NavLink to="/contact" className="contact-btn">
+              contact
+            </NavLink>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     </NavigationContainer>
   );
 };

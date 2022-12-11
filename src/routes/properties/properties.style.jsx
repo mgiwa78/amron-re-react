@@ -6,19 +6,21 @@ export const PropertiesContainer = styled.div`
   justify-items: center;
   align-items: center;
   background-color: var(--color9);
-  padding-top: 140px;
   height: max-content;
+  justify-content: center;
 
   .properties-container {
     width: var(--contentwidth);
     display: flex;
     flex-direction: column;
     justify-items: center;
-    gap: 30px;
+    gap: 20px;
     min-height: 100vh;
     height: max-content;
   }
+
   .bradcrumps {
+    margin-top: 100px;
     width: fit-content;
     align-items: center;
     display: flex;
@@ -50,8 +52,8 @@ export const PropertiesContainer = styled.div`
     border-radius: 5px;
     opacity: 1;
     height: 76px;
-    width: 100%;
     font-size: var(--font-size8);
+    position: sticky;
 
     display: flex;
     justify-content: space-between;
@@ -75,10 +77,10 @@ export const PropertiesContainer = styled.div`
   }
   .properties-section {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    gap: 60px;
+    gap: 20px;
   }
 
   .pagination-box {
@@ -123,6 +125,18 @@ export const PropertiesContainer = styled.div`
       border-top: 2px solid #5a5a5a;
       border-left: 2px solid #5a5a5a;
       rotate: 135deg;
+    }
+  }
+  @media only screen and (min-width: 1000px) {
+    padding-top: 140px;
+    .bradcrumps {
+      margin-top: 20px;
+    }
+    .properties-section {
+      gap: 60px;
+    }
+    .properties-header {
+      width: 100%;
     }
   }
 `;

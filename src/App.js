@@ -8,6 +8,7 @@ import Subsidiaries from "./routes/subsidiaries/subsidiaries.components";
 import AboutUs from "./routes/about-us/about-us.components";
 import ContactUs from "./routes/contact/contact.components";
 import Property from "./routes/property/property.components";
+import BasicExample from "./routes/testing/testing.components";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="subsidiaries" element={<Subsidiaries />} />
           <Route path="aboutus" element={<AboutUs />} />
           <Route path="contact" element={<ContactUs />} />
+          <Route path="testing" element={<BasicExample />} />
         </Routes>
       </BrowserRouter>
       <RootStyles />

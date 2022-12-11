@@ -44,7 +44,6 @@ const Properties = () => {
         </div>
       </div>
       <Footer />
-      <CopyRights />
     </PropertiesContainer>
   );
 };

@@ -9,7 +9,7 @@ export const ButtonDefault = styled(BaseBtn)`
   height: max-content;
   padding: 11px 18px;
   border-radius: 5px;
-  font-size: var(--font-size6);
+  font-size: var(--font-size9);
 
   ////////////////////////////////
   ////////////////////////////////
@@ -18,13 +18,14 @@ export const ButtonDefault = styled(BaseBtn)`
   ////////////////////////////////
   ////////////////////////////////
   ////////////////////////////////
-  @media only screen and (min-width: 1400px) {
+  @media only screen and (min-width: 1200px) {
     background-color: var(--color6);
     color: var(--color0);
     width: max-content;
     height: max-content;
     padding: 11px 18px;
     border-radius: 5px;
+    font-size: var(--font-size9);
   }
 `;
 export const ButtonInverted = styled(BaseBtn)`

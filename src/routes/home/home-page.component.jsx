@@ -4,7 +4,7 @@ import CallToAction from "../../components/call to action/cta,component";
 import DealsSection from "../../components/deals-section/deals-section.component";
 import Footer from "../../components/footer/footer.component";
 import HeroSection from "../../components/hero-section/hero-section.component";
-import NavBar from "../../components/nav-bar/nav-bar.component";
+import NavComponent from "../../components/nav-bar/nav-bar.component";
 import Projects from "../../components/projects-section/projects.component";
 import Specializtions from "../../components/specializations-section/specializations-section.component";
 import { HomeContainer } from "./home-page.styles";
@@ -12,7 +12,7 @@ import { HomeContainer } from "./home-page.styles";
 const Home = () => {
   return (
     <HomeContainer>
-      <NavBar />
+      <NavComponent />
       <HeroSection />
       <AboutSection />
       <DealsSection />

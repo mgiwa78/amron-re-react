@@ -12,7 +12,6 @@ export const ContactUsContainer = styled.div`
 
   .content-box {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     width: var(--contentwidth);
@@ -70,8 +69,7 @@ export const ContactUsContainer = styled.div`
     input[type="text"],
     input[type="email"],
     input[type="number"] {
-      width: 80vw;
-      max-width: 600px;
+      width: 681px;
       height: 45px;
       padding: 15px;
 
@@ -79,28 +77,9 @@ export const ContactUsContainer = styled.div`
       border-radius: 5px;
     }
     textarea {
-      max-width: 600px;
       padding: 15px;
-      width: 100%;
-      height: 194px;
-      border: 0.699999988079071px solid #1515155f;
-      border-radius: 5px;
-      margin-bottom: 30px;
-    }
-  }
-  @media only screen and (min-width: 1000px) {
-    .content-box {
-      flex-direction: row;
-
-      max-width: 1100px;
-    }
-    input[type="text"],
-    input[type="email"],
-    input[type="number"] {
       width: 681px;
-      height: 45px;
-      padding: 15px;
-
+      height: 194px;
       border: 0.699999988079071px solid #1515155f;
       border-radius: 5px;
     }
