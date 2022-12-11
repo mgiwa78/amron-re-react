@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 import { RootStyles } from "./root-styles";
 import LandingPaage from "./routes/home/home-page.component";
 import Properties from "./routes/properties/properties.component";
@@ -13,7 +13,11 @@ import BasicExample from "./routes/testing/testing.components";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter
+        basename={
+          process.env.NODE_ENV === "development" ? "" : process.env.PUBLIC_URL
+        }
+      >
         <Routes>
           <Route path="/" element={<LandingPaage />} />
           <Route path="properties" element={<Properties />} />
@@ -24,7 +28,7 @@ function App() {
           <Route path="contact" element={<ContactUs />} />
           <Route path="testing" element={<BasicExample />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <RootStyles />
     </div>
   );
