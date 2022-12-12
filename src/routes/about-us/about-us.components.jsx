@@ -9,6 +9,8 @@ import ProjectsDisplay from "../../components/projects-display/projects-display.
 import { AboutUsContainer, ServiceItem, TrackRecords } from "./about-us.styles";
 
 const AboutUs = () => {
+  const imgPath = require(`../../assets/images/Image 13@2x.png`);
+
   return (
     <AboutUsContainer>
       <DynamicHero imgName="2229@2x.png" title="About Us" />
@@ -17,11 +19,7 @@ const AboutUs = () => {
         <div className="services">
           <div className="title">Our Services</div>{" "}
           <div className="sevices-list">
-            <ServiceItem
-              style={{
-                backgroundImage: `url("/images/Image 13@2x.png")`,
-              }}
-            >
+            <ServiceItem imgPath={imgPath}>
               <div className="service-item-right"></div>
               <div className="service-item-left">
                 <div className="service-item-name">Architectural Design</div>
@@ -32,11 +30,7 @@ const AboutUs = () => {
                 </div>
               </div>
             </ServiceItem>
-            <ServiceItem
-              style={{
-                backgroundImage: `url("/images/Image 13@2x.png")`,
-              }}
-            >
+            <ServiceItem imgPath={imgPath}>
               <div className="service-item-right"></div>
               <div className="service-item-left">
                 <div className="service-item-name">Architectural Design</div>
@@ -47,11 +41,7 @@ const AboutUs = () => {
                 </div>
               </div>
             </ServiceItem>
-            <ServiceItem
-              style={{
-                backgroundImage: `url("/images/Image 13@2x.png")`,
-              }}
-            >
+            <ServiceItem imgPath={imgPath}>
               <div className="service-item-right"></div>
               <div className="service-item-left">
                 <div className="service-item-name">Architectural Design</div>
@@ -62,11 +52,7 @@ const AboutUs = () => {
                 </div>
               </div>
             </ServiceItem>
-            <ServiceItem
-              style={{
-                backgroundImage: `url("/images/Image 13@2x.png")`,
-              }}
-            >
+            <ServiceItem imgPath={imgPath}>
               <div className="service-item-right"></div>
               <div className="service-item-left">
                 <div className="service-item-name">Architectural Design</div>
@@ -143,7 +129,7 @@ const AboutUs = () => {
             <div
               className="trackImg"
               style={{
-                backgroundImage: `url("/images/1223@2x.png")`,
+                backgroundImage: `src("../../assets/images/1223@2x.png")`,
               }}
             ></div>
           </TrackRecords>

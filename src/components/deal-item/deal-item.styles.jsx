@@ -1,4 +1,4 @@
-import styled from "styled-components/macro";
+import styled, { css } from "styled-components/macro";
 
 export const DealItemContainer = styled.div`
   height: 332px;
@@ -11,12 +11,19 @@ export const DealItemContainer = styled.div`
   border: 1px solid var(--color11);
   border-radius: 4px;
   .item-top {
+    ${({ imgPath }) =>
+      css`
+        background: url("${imgPath}");
+      `}
     padding: 20px;
     position: relative;
     width: 100%;
     height: 322px;
     border-radius: 2px;
-
+    ${({ imgPath }) =>
+      css`
+        background: url("${imgPath}");
+      `}
     .selling-div {
       padding: 3px 8px;
       border-radius: 2px;
@@ -102,23 +109,22 @@ export const DealItemContainer = styled.div`
   ////////////////////////////////
   ////////////////////////////////
   ////////////////////////////////
-  @media only screen and (min-width: 1200px) {
-    height: 382px;
-    width: 270px;
+  @media only screen and (min-width: 1100px) {
+    height: 302px;
+    width: 240px !important;
     padding: 10px;
     gap: 5px;
     display: flex;
     flex-direction: column;
     background-color: var(--color0);
     border: 1px solid var(--color11);
-    border-radius: 10px;
+    border-radius: 4px;
     .item-top {
       padding: 20px;
       position: relative;
       width: 100%;
-      height: 303px;
+      height: 60%;
       border-radius: 5px;
-      background: url("/images/Image 2.png");
 
       .selling-div {
         padding: 7px 12px;
@@ -154,7 +160,8 @@ export const DealItemContainer = styled.div`
       text-align: left;
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 2px;
+      height: max-content !important;
       .deal-location {
         display: flex;
         align-items: center;

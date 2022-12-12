@@ -39,6 +39,10 @@ export const LocationIcon = styled.img`
   height: 14px;
 `;
 export const ProjectItem = styled.div`
+  ${({ imgPath }) =>
+    css`
+      background: url("${imgPath}");
+    `}
   height: 313px;
   border-radius: 10px;
   width: 260px;

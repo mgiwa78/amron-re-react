@@ -12,14 +12,11 @@ import LocationIconPath from "../../assets/icons/icons8-place_marker-1.png";
 import BathPath from "../../assets/icons/icons8-shower_and_tub.png";
 import BedPath from "../../assets/icons/icons8-bedroom-4.png";
 const DealItem = () => {
+  const imgPath = require(`../../assets/images/Image 2.png`);
+
   return (
-    <DealItemContainer>
-      <div
-        className="item-top"
-        style={{
-          backgroundImage: `url("/images/Image 2.png")`,
-        }}
-      >
+    <DealItemContainer imgPath={imgPath}>
+      <div className="item-top">
         <div className="selling-div sale">For Sale</div>
         <div className="like-box">
           <LikeIcon src={LikeIconPath} />

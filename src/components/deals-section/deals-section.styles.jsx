@@ -3,7 +3,7 @@ import styled from "styled-components/macro";
 export const DealsSectionContainer = styled.div`
   padding: 30px 0px;
   width: 100vw;
-  height: 500px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,7 +21,7 @@ export const DealsSectionContainer = styled.div`
     align-items: center;
     overflow-y: scroll;
     padding: 0 20px;
-    height: 350px;
+    height: 400px;
     width: 800px;
   }
   .deals-footer {
@@ -61,7 +61,7 @@ export const DealsSectionContainer = styled.div`
   ////////////////////////////////
   ////////////////////////////////
   ////////////////////////////////
-  @media only screen and (min-width: 1400px) {
+  @media only screen and (min-width: 1100px) {
     padding: 50px 0px;
     width: 100vw;
     height: 600px;
@@ -80,10 +80,11 @@ export const DealsSectionContainer = styled.div`
       display: flex;
       gap: 40px;
       align-items: center;
+      justify-content: center;
       overflow: hidden;
       padding: 0 20px;
       height: 550px;
-      width: 1000px;
+      width: var(--contentwidth);
     }
     .deals-footer {
       .deal-trails {

@@ -136,6 +136,10 @@ export const SubsidiaryItem = styled.div`
   .sub-item-right {
     height: 343px;
     width: 100%;
+    ${({ imgPath }) =>
+      css`
+        background: url("${imgPath}");
+      `}
 
     background-position: center;
     background-size: cover;

@@ -151,6 +151,10 @@ export const TrackRecords = styled.div`
     height: 238px;
     display: flex;
     text-align: left;
+    ${({ imgName }) =>
+      css`
+        background: url("/images/${imgName}");
+      `}
 
     background-position: center;
     background-size: cover;
@@ -201,9 +205,9 @@ export const ServiceItem = styled.div`
     text-align: left;
     width: 50%;
     height: 200px;
-    ${({ imgName }) =>
+    ${({ imgPath }) =>
       css`
-        background: url("/images/${imgName}");
+        background: url("${imgPath}");
       `}
 
     background-position: center;
@@ -251,10 +255,6 @@ export const ServiceItem = styled.div`
       text-align: left;
       width: 50%;
       height: 100%;
-      ${({ imgName }) =>
-        css`
-          background: url("/images/${imgName}");
-        `}
 
       background-position: center;
       background-size: cover;

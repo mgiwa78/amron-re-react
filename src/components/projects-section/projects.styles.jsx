@@ -1,4 +1,4 @@
-import styled from "styled-components/macro";
+import styled, { css } from "styled-components/macro";
 
 export const ProjectsContainer = styled.div`
   display: flex;
@@ -20,6 +20,10 @@ export const ProjectsContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     .project-item {
+      ${({ imgPath }) =>
+        css`
+          background: url("${imgPath}");
+        `}
       height: 313px;
       border-radius: 17px;
       width: 259px;

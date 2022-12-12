@@ -6,15 +6,17 @@ import {
   LogoBox,
 } from "./footer.styles";
 
-import logoPath from "../../assets/logo/AMRON Horizontal White2@2x.png";
+// import logoPath from "../../assets/logo/AMRON Horizontal White2@2x.png";
 import locPath from "../../assets/icons/icons8-place_marker.png";
 import contPath from "../../assets/icons/icons8-shake_phone.png";
 import CopyRights from "../copy-right/copy-right.component";
 const Footer = () => {
+  const logoPath = require("../../assets/logo/AMRON Horizontal White2@2x.png");
   return (
     <FooterContainer>
       <div className="footer-container">
         <LogoBox src={logoPath} />
+        {console.log(logoPath)}
         <div className="footer-box">
           <div className="fb-title">Contact Information</div>
           <div className="address">

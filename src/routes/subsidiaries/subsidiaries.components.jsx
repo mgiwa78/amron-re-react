@@ -12,11 +12,13 @@ import {
 } from "./subsidiaries.styles";
 
 const Subsidiaries = () => {
+  const imgPath = require(`../../assets/images/3837@2x (Small).png`);
+
   return (
     <SubsidiariesContainer>
       <DynamicHero imgName="786@2x.png" title="Our Subsidiaries" />
       <SubsidiariesList>
-        <SubsidiaryItem imgName="3837@2x (Small).png">
+        <SubsidiaryItem imgPath={imgPath}>
           <div className="sub-item-left">
             <div className="subsidiary-heading">
               <div className="subsidiary-initials">

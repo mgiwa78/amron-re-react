@@ -4,16 +4,13 @@ import { LocationIcon, ProjectsContainer } from "./projects.styles";
 import LocationIconPath from "../../assets/icons/icons8-place_marker-1.png";
 
 const Projects = () => {
+  const imgPath = require(`../../assets/images/2229.png`);
+
   return (
-    <ProjectsContainer>
+    <ProjectsContainer imgPath={imgPath}>
       <div className="projects-heading">Our Projects</div>
       <div className="project-items">
-        <div
-          className="project-item"
-          style={{
-            backgroundImage: `url("/images/2229.png")`,
-          }}
-        >
+        <div className="project-item">
           <div className="project-details">
             <div className="project-title">Palm heights homes (phase 1)</div>
             <div className="project-location">
