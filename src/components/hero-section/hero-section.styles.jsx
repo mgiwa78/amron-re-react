@@ -6,13 +6,13 @@ export const HeroSectionContainer = styled.div`
     text-align: left;
     width: 100vw;
     height: 500px;
-    background-position: center;
-    background-size: cover;
-    position: relative;
     ${({ imgPath }) =>
       css`
         background: url("${imgPath}");
       `}
+    background-position: center;
+    background-size: cover;
+    position: relative;
   }
   .hero-body {
     width: 100vw;
@@ -48,7 +48,7 @@ export const HeroSectionContainer = styled.div`
       text-align: left;
       width: 100vw;
       height: 600px;
-      background: url("/images/483@2x.png");
+
       background-position: center;
       background-size: cover;
       position: relative;

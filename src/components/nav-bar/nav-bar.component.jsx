@@ -7,8 +7,14 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 const NavBar = ({ type }) => {
+  const imgPath = require(`../../assets/logo/logo-desktop2.png`);
+
   return (
-    <NavigationContainer className="nav-container" type={type}>
+    <NavigationContainer
+      imgPath={imgPath}
+      className="nav-container"
+      type={type}
+    >
       {/* <div className="nav-container">
         <div className="logo-box">
           <NavLogo src={LogoPath} />
@@ -27,7 +33,7 @@ const NavBar = ({ type }) => {
       <Navbar className="nav-box" expand="lg">
         <NavLink to="/">
           <div className="logo-box">
-            <NavLogo src={LogoPath} />
+            <NavLogo imgPath={imgPath} />
           </div>
         </NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

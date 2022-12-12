@@ -135,7 +135,7 @@ export const SubsidiaryItem = styled.div`
   }
   .sub-item-right {
     height: 343px;
-    width: 500px !important;
+    width: 100%;
 
     background-position: center;
     background-size: cover;

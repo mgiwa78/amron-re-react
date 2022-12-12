@@ -139,9 +139,13 @@ export const NavLink = styled(Link)`
 `;
 
 export const NavLogo = styled.div`
-  background: url("/logo/logo-desktop2.png");
-  width: 180px;
+  width: 240px;
   height: 60px;
+
+  ${({ imgPath }) =>
+    css`
+      background: url("${imgPath}");
+    `}
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
