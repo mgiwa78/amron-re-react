@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.cf5ac6b4.css",
-    "main.js": "./static/js/main.cbce03c1.js",
+    "main.js": "./static/js/main.ba74d72f.js",
     "static/js/787.3d56b8a2.chunk.js": "./static/js/787.3d56b8a2.chunk.js",
     "static/media/78116@2x.png": "./static/media/78116@2x.8cfab29904698eee5d0f.png",
     "static/media/1778@2x.png": "./static/media/1778@2x.976df06bc753e3c5bee2.png",
@@ -70,13 +70,14 @@
     "static/media/logo-desktop.png": "./static/media/logo-desktop.f09d295f279bd781ab37.png",
     "static/media/AMRON Horizontal White2@2x.png": "./static/media/AMRON Horizontal White2@2x.63e6a61f08df9edf8316.png",
     "static/media/2229-1.png": "./static/media/2229-1.7d2189ffbd080304ac0c.png",
+    "static/media/logo-desktop2.png": "./static/media/logo-desktop2.276b43ca29b68e7192a2.png",
     "index.html": "./index.html",
     "main.cf5ac6b4.css.map": "./static/css/main.cf5ac6b4.css.map",
-    "main.cbce03c1.js.map": "./static/js/main.cbce03c1.js.map",
+    "main.ba74d72f.js.map": "./static/js/main.ba74d72f.js.map",
     "787.3d56b8a2.chunk.js.map": "./static/js/787.3d56b8a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf5ac6b4.css",
-    "static/js/main.cbce03c1.js"
+    "static/js/main.ba74d72f.js"
   ]
 }
