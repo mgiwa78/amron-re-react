@@ -135,13 +135,13 @@ export const SubsidiaryItem = styled.div`
   }
   .sub-item-right {
     height: 343px;
-    width: 100%;
+    width: 500px !important;
+
+    background-position: center;
+    background-size: cover;
     ${({ imgPath }) =>
       css`
         background: url("${imgPath}");
       `}
-
-    background-position: center;
-    background-size: cover;
   }
 `;

@@ -4,8 +4,10 @@ import { AboutSectionContainer } from "./about-section.styles";
 import abtImg from "../../assets/images/310.png";
 import Button from "../button/button.component";
 const AboutSection = () => {
+  const imgPath = require(`../../assets/images/310.png`);
+
   return (
-    <AboutSectionContainer>
+    <AboutSectionContainer imgPath={imgPath}>
       <div className="text-block">
         <div className="block-header">
           We are focused to create excellent environments where our clients can
@@ -21,13 +23,7 @@ const AboutSection = () => {
         </div>
         <Button>Learn More</Button>
       </div>
-      <div
-        className="img"
-        style={{
-          backgroundImage: `url("/images/310.png")`,
-        }}
-        alt=""
-      />
+      <div className="img" alt="" />
     </AboutSectionContainer>
   );
 };

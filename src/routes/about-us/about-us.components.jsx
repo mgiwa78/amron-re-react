@@ -10,6 +10,8 @@ import { AboutUsContainer, ServiceItem, TrackRecords } from "./about-us.styles";
 
 const AboutUs = () => {
   const imgPath = require(`../../assets/images/Image 13@2x.png`);
+  const imgPath2 = require(`../../assets/images/1223@2x.png`);
+  const imgPath3 = require(`../../assets/images/1223@2x.png`);
 
   return (
     <AboutUsContainer>
@@ -107,7 +109,7 @@ const AboutUs = () => {
       </div>
       <div className="track-record">
         <div className="content-box">
-          <TrackRecords>
+          <TrackRecords trackPath={imgPath3}>
             <div className="records">
               <div className="record-item">
                 Over <span className="record-number">20+</span>
@@ -126,12 +128,7 @@ const AboutUs = () => {
                 <span className="record-name">Properties Sold</span>
               </div>
             </div>
-            <div
-              className="trackImg"
-              style={{
-                backgroundImage: `src("../../assets/images/1223@2x.png")`,
-              }}
-            ></div>
+            <div className="trackImg" imgPath={imgPath3}></div>
           </TrackRecords>
         </div>
       </div>

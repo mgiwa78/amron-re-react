@@ -52,12 +52,7 @@ const Subsidiaries = () => {
               </table>
             </div>
           </div>
-          <div
-            className="sub-item-right"
-            style={{
-              backgroundImage: `url("/images/786@2x.png")`,
-            }}
-          ></div>
+          <div className="sub-item-right"></div>
         </SubsidiaryItem>
       </SubsidiariesList>
       <Footer />

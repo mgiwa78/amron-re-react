@@ -111,7 +111,7 @@ export const DealItemContainer = styled.div`
   ////////////////////////////////
   @media only screen and (min-width: 1100px) {
     height: 302px;
-    width: 240px !important;
+    width: 240px;
     padding: 10px;
     gap: 5px;
     display: flex;
@@ -203,6 +203,14 @@ export const DealItemContainer = styled.div`
         font-size: var(--font-size5);
         color: var(--color6);
       }
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    height: 390px;
+    width: 380px !important;
+    max-width: 320px;
+    .item-top {
+      height: 60%;
     }
   }
 `;

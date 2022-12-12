@@ -64,7 +64,7 @@ export const DealsSectionContainer = styled.div`
   @media only screen and (min-width: 1100px) {
     padding: 50px 0px;
     width: 100vw;
-    height: 600px;
+    height: 650px;
     display: flex;
     flex-direction: column;
     align-items: center;

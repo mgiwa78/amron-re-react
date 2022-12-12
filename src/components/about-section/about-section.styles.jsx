@@ -1,4 +1,4 @@
-import styled from "styled-components/macro";
+import styled, { css } from "styled-components/macro";
 
 export const AboutSectionContainer = styled.div`
   display: flex;
@@ -28,7 +28,10 @@ export const AboutSectionContainer = styled.div`
   }
 
   .img {
-    background: url("/images/310.png");
+    ${({ imgPath }) =>
+      css`
+        background: url("${imgPath}");
+      `}
     width: 100%;
     height: 280px;
     background-position: center;
