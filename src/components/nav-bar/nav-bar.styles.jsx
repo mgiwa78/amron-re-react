@@ -26,6 +26,7 @@ export const NavigationContainer = styled.div`
     width: var(--contentwidth);
   }
   .me-auto {
+    text-align: left;
     margin-top: 20px;
   }
   @media only screen and (min-width: 1000px) {
@@ -139,7 +140,7 @@ export const NavLink = styled(Link)`
 `;
 
 export const NavLogo = styled.div`
-  width: 240px;
+  width: 175px;
   height: 60px;
 
   ${({ imgPath }) =>
