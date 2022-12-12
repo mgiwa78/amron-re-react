@@ -16,7 +16,6 @@ export const DealItemContainer = styled.div`
     width: 100%;
     height: 322px;
     border-radius: 2px;
-    background: url("/images/Image 2.png");
 
     .selling-div {
       padding: 3px 8px;
@@ -104,7 +103,7 @@ export const DealItemContainer = styled.div`
   ////////////////////////////////
   ////////////////////////////////
   @media only screen and (min-width: 1200px) {
-    height: 332px;
+    height: 382px;
     width: 270px;
     padding: 10px;
     gap: 5px;

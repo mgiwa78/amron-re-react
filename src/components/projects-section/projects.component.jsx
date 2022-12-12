@@ -8,7 +8,12 @@ const Projects = () => {
     <ProjectsContainer>
       <div className="projects-heading">Our Projects</div>
       <div className="project-items">
-        <div className="project-item">
+        <div
+          className="project-item"
+          style={{
+            backgroundImage: `url("/images/2229.png")`,
+          }}
+        >
           <div className="project-details">
             <div className="project-title">Palm heights homes (phase 1)</div>
             <div className="project-location">

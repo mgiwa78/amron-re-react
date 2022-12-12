@@ -151,10 +151,6 @@ export const TrackRecords = styled.div`
     height: 238px;
     display: flex;
     text-align: left;
-    ${({ imgName }) =>
-      css`
-        background: url("/images/${imgName}");
-      `}
 
     background-position: center;
     background-size: cover;

@@ -23,7 +23,6 @@ export const ProjectsContainer = styled.div`
       height: 313px;
       border-radius: 17px;
       width: 259px;
-      background: url("/images/2229.png");
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;
@@ -85,7 +84,7 @@ export const ProjectsContainer = styled.div`
         height: 413px;
         border-radius: 17px;
         width: 340px;
-        background: url("/images/2229.png");
+
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;

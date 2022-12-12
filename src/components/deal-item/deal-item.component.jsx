@@ -14,7 +14,12 @@ import BedPath from "../../assets/icons/icons8-bedroom-4.png";
 const DealItem = () => {
   return (
     <DealItemContainer>
-      <div className="item-top">
+      <div
+        className="item-top"
+        style={{
+          backgroundImage: `url("/images/Image 2.png")`,
+        }}
+      >
         <div className="selling-div sale">For Sale</div>
         <div className="like-box">
           <LikeIcon src={LikeIconPath} />

@@ -70,7 +70,6 @@ export const AboutSectionContainer = styled.div`
     }
 
     .img {
-      background: url("/images/310.png");
       width: 530px;
       height: 480px;
       background-position: center;

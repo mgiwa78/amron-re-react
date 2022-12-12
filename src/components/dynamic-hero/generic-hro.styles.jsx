@@ -21,10 +21,6 @@ export const DynamicHeroContainer = styled.div`
     width: 100vw;
 
     height: 577px;
-    ${({ imgName }) =>
-      css`
-        background: url("/images/${imgName}");
-      `}
 
     background-position: center;
     background-size: cover;

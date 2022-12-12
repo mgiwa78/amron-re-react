@@ -12,7 +12,11 @@ const ProjectsDisplay = () => {
   return (
     <ProjectsDisplayContainer>
       <div className="project-items">
-        <ProjectItem ImgName="2229.png">
+        <ProjectItem
+          style={{
+            backgroundImage: `url("/images/2229.png")`,
+          }}
+        >
           <div className="project-details">
             <div className="project-title">Palm heights homes (phase 1)</div>
             <div className="project-location">
@@ -21,7 +25,11 @@ const ProjectsDisplay = () => {
             </div>
           </div>
         </ProjectItem>
-        <ProjectItem ImgName="Image 9.png">
+        <ProjectItem
+          style={{
+            backgroundImage: `url("/images/Image 9.png")`,
+          }}
+        >
           <div className="project-details">
             <div className="project-title">Palm heights homes (phase 2)</div>
             <div className="project-location">
@@ -30,7 +38,11 @@ const ProjectsDisplay = () => {
             </div>
           </div>
         </ProjectItem>
-        <ProjectItem ImgName="Image 11.png">
+        <ProjectItem
+          style={{
+            backgroundImage: `url("/images/Image 11.png")`,
+          }}
+        >
           <div className="project-details">
             <div className="project-title">Palm heights homes (phase 3)</div>
             <div className="project-location">
@@ -39,7 +51,11 @@ const ProjectsDisplay = () => {
             </div>
           </div>
         </ProjectItem>
-        <ProjectItem ImgName="Image 5.png">
+        <ProjectItem
+          style={{
+            backgroundImage: `url("/images/Image 5.png")`,
+          }}
+        >
           <div className="project-details">
             <div className="project-title">Palm heights homes (phase 4)</div>
             <div className="project-location">
@@ -48,7 +64,11 @@ const ProjectsDisplay = () => {
             </div>
           </div>
         </ProjectItem>
-        <ProjectItem ImgName="Image 5.png">
+        <ProjectItem
+          style={{
+            backgroundImage: `url("/images/Image 5.png")`,
+          }}
+        >
           <div className="project-details">
             <div className="project-title">Palm heights homes (phase 4)</div>
             <div className="project-location">
@@ -57,7 +77,11 @@ const ProjectsDisplay = () => {
             </div>
           </div>
         </ProjectItem>
-        <ProjectItem ImgName="Image 5.png">
+        <ProjectItem
+          style={{
+            backgroundImage: `url("/images/Image 5.png")`,
+          }}
+        >
           <div className="project-details">
             <div className="project-title">Palm heights homes (phase 4)</div>
             <div className="project-location">

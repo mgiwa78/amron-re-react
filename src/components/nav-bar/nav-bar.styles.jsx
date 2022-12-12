@@ -48,6 +48,9 @@ export const NavigationContainer = styled.div`
       padding: 15px 0 !important;
       align-items: center;
     }
+    .me-auto {
+      margin-top: 0px;
+    }
     .navbar-collapse {
       width: 690px !important;
       justify-content: space-between;

@@ -43,11 +43,6 @@ export const ProjectItem = styled.div`
   border-radius: 10px;
   width: 260px;
 
-  ${({ ImgName }) =>
-    css`
-      background: url("/images/${ImgName}");
-    `}
-
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -80,11 +75,6 @@ export const ProjectItem = styled.div`
     height: 343px;
     border-radius: 17px;
     width: calc(26% - 20px);
-
-    ${({ ImgName }) =>
-      css`
-        background: url("/images/${ImgName}");
-      `}
 
     background-position: center;
     background-size: cover;

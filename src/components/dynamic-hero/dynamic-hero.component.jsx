@@ -5,7 +5,12 @@ import { DynamicHeroContainer } from "./generic-hro.styles";
 const DynamicHero = ({ imgName, title }) => {
   return (
     <DynamicHeroContainer imgName={imgName}>
-      <div className="dynamic-hero-img">
+      <div
+        className="dynamic-hero-img"
+        style={{
+          backgroundImage: `url("/images/${imgName}")`,
+        }}
+      >
         <div className="dynamic-hero-body">
           <div className="dynamic-container">
             <NavBar />

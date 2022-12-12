@@ -17,7 +17,11 @@ const AboutUs = () => {
         <div className="services">
           <div className="title">Our Services</div>{" "}
           <div className="sevices-list">
-            <ServiceItem imgName="Image 13@2x.png">
+            <ServiceItem
+              style={{
+                backgroundImage: `url("/images/Image 13@2x.png")`,
+              }}
+            >
               <div className="service-item-right"></div>
               <div className="service-item-left">
                 <div className="service-item-name">Architectural Design</div>
@@ -28,7 +32,11 @@ const AboutUs = () => {
                 </div>
               </div>
             </ServiceItem>
-            <ServiceItem imgName="Image 13@2x.png">
+            <ServiceItem
+              style={{
+                backgroundImage: `url("/images/Image 13@2x.png")`,
+              }}
+            >
               <div className="service-item-right"></div>
               <div className="service-item-left">
                 <div className="service-item-name">Architectural Design</div>
@@ -39,7 +47,11 @@ const AboutUs = () => {
                 </div>
               </div>
             </ServiceItem>
-            <ServiceItem imgName="Image 13@2x.png">
+            <ServiceItem
+              style={{
+                backgroundImage: `url("/images/Image 13@2x.png")`,
+              }}
+            >
               <div className="service-item-right"></div>
               <div className="service-item-left">
                 <div className="service-item-name">Architectural Design</div>
@@ -50,7 +62,11 @@ const AboutUs = () => {
                 </div>
               </div>
             </ServiceItem>
-            <ServiceItem imgName="Image 13@2x.png">
+            <ServiceItem
+              style={{
+                backgroundImage: `url("/images/Image 13@2x.png")`,
+              }}
+            >
               <div className="service-item-right"></div>
               <div className="service-item-left">
                 <div className="service-item-name">Architectural Design</div>
@@ -105,7 +121,7 @@ const AboutUs = () => {
       </div>
       <div className="track-record">
         <div className="content-box">
-          <TrackRecords imgName="1223@2x.png">
+          <TrackRecords>
             <div className="records">
               <div className="record-item">
                 Over <span className="record-number">20+</span>
@@ -124,7 +140,12 @@ const AboutUs = () => {
                 <span className="record-name">Properties Sold</span>
               </div>
             </div>
-            <div className="trackImg"></div>
+            <div
+              className="trackImg"
+              style={{
+                backgroundImage: `url("/images/1223@2x.png")`,
+              }}
+            ></div>
           </TrackRecords>
         </div>
       </div>

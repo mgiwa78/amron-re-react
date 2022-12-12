@@ -21,7 +21,13 @@ const AboutSection = () => {
         </div>
         <Button>Learn More</Button>
       </div>
-      <div className="img" alt="" />
+      <div
+        className="img"
+        style={{
+          backgroundImage: `url("/images/310.png")`,
+        }}
+        alt=""
+      />
     </AboutSectionContainer>
   );
 };
