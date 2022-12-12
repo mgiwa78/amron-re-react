@@ -14,9 +14,9 @@ function App() {
   return (
     <div className="App">
       <HashRouter
-        basename={
-          process.env.NODE_ENV === "development" ? "" : process.env.PUBLIC_URL
-        }
+      // basename={
+      //   process.env.NODE_ENV === "development" ? "" : process.env.PUBLIC_URL
+      // }
       >
         <Routes>
           <Route path="/" element={<LandingPaage />} />

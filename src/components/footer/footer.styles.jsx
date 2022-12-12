@@ -31,7 +31,7 @@ export const FooterContainer = styled.div`
     gap: 10px;
     :nth-child(3) {
       ul {
-        margin-left: 10px;
+        margin-left: 0px;
       }
     }
     .address {
@@ -75,6 +75,8 @@ export const FooterContainer = styled.div`
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+    padding-left: 10px;
+
     li {
       line-height: 25px;
 
@@ -105,7 +107,7 @@ export const FooterContainer = styled.div`
     .footer-container {
       width: var(--contentwidth);
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
       flex-direction: row;
 
@@ -155,6 +157,8 @@ export const FooterContainer = styled.div`
       justify-content: center;
       align-items: flex-start;
       flex-direction: column;
+      padding-left: 10px;
+
       li {
         line-height: 25px;
 
